@@ -41,5 +41,5 @@ environment:
 
 
 :::danger IMPORTANT
-Upon installation of this plugin, configuration is needed on Android before running the project again. If this is not done, an error of **No implementation found** would show because the Facebook SDK on Android would throw an Exception error if the configuration is not yet defined. This error also locks the other plugins in your project, so if the plugin is not yet needed, either remove it or comment it out from the pubspec.yaml file.
+Upon installation of this plugin, configuration is needed on Android and iOS before running the project again. If this is not done, an error of **No implementation found** would show because the Facebook SDK on Android would throw an Exception error if the configuration is not yet defined. This error also locks the other plugins in your project, so if the plugin is not yet needed, either remove it or comment it out from the pubspec.yaml file.
 :::
